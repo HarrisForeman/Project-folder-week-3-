@@ -2,11 +2,11 @@ body {
  background-color: #441E13;
  color: white;
 }
-/*
-div {
+
+/*div {
   outline: 1px solid grey;
-}
-*/
+}*/
+
 .logo {
   color: white;
   font-weight: bold;
@@ -53,4 +53,94 @@ div {
 
 .nav li:last-child {
   border-right: none;
+}
+
+/*--- Banner shit ---*/
+
+.bannercontainer {
+  background-color:#87A984;
+  margin-top: 10px;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 35px 0px;
+
+}
+
+.paperplane {
+
+  padding-left: 45px;
+  float: left;
+}
+
+.aboutlogo {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  float:left;
+  padding-left: 35px;
+}
+
+.abouttext {
+  padding-left: 45px;
+}
+
+.aboutlogo div{
+  color:rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: sans-serif;
+  max-width: 445px;
+}
+
+/*--- Blue list shit ---*/
+
+.sitebody {
+  margin-top: 10px;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.sidelist {
+background-color: #96afac;
+width: 200px;
+float: left;
+height: 600px
+}
+
+.sidelist li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  display: block;
+  padding: 10px 5px;
+  font-family: sans-serif;
+  font-weight: ;
+  font-size: 0.8rem;
+  margin-right: 50px;
+}
+
+/*--- contents ---*/
+
+
+.contentsheading {
+ float: left;
+ padding: 35px 50px;
+ font-size: 1.5rem;
+ font-weight: bold;
+ font-family: sans-serif;
+ background-color: #dbd8c5;
+ width: 620px;
+ height: 530px;
+ color: #57727D;
+
+}
+
+.contentsheading div {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.75);
+
 }
